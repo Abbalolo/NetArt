@@ -1,0 +1,192 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+ margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+   
+}
+
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+ overflow: hidden;
+}
+
+.logo-con{
+    display: flex;
+    justify-content: center;
+align-items: center;
+
+
+}
+.logo{
+   width: 500px;
+
+}
+
+.grid{
+     display: flex;
+    justify-content: center;
+align-items: center;
+margin:0 1em 0 1em;
+
+
+}
+
+@media only  screen  and (max-width: 500px){
+    .grid{
+        flex-direction: column;
+    }
+}
+
+.grid .award{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.gifting-award img{
+    width: 100%;
+    height: 100%;
+}
+
+.right-con{
+     display: flex;
+
+flex-direction: column;
+    gap: 10px;
+}
+
+
+
+ul li {
+    margin-left: 2.5em;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+
+.grid p {
+    font-weight: 600;
+       font-size: 14px;
+    
+}
+.grid span{
+    font-weight: 700;
+ 
+    
+}
+@media only  screen  and (max-width: 500px){
+   .all-tools-con{
+   margin-top: 2em;
+}
+}
+
+
+.all-tools-con h4{
+     font-size: 14px;
+     text-align: center;
+}
+
+
+
+
+.equipment-con {
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 20px;
+}
+
+.equipment-con img{
+width: 90%;
+}
+.equipment-con .equipment{
+width: 80%;
+}
+
+.equipment-con p{
+font-size: 14px;
+text-align: center;
+}
+
+
+.line{
+width: 100%;
+height: 2px;
+background-color: rgb(219, 49, 27);
+margin: 1em 0;
+}
+
+.conclusion{
+       display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 10px;
+padding: 15px;
+}
+
+
+.conclusion h4{
+
+text-align: center;
+
+}
+.conclusion p{
+font-size: 14px;
+text-align: center;
+font-weight: 600;
+}
+
+footer{
+    background-color: rgb(219, 49, 27);
+    color: white;
+    padding: 20px;
+  display: flex;
+justify-content: space-around;
+align-items: center;
+
+
+}
+
+@media only  screen  and (max-width: 500px){
+footer{
+ flex-wrap: wrap;
+ justify-content: flex-start;
+ gap: 20px;
+
+}
+}
+footer a{
+   display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+    color: white;
+font-size: 14px;
+text-decoration: none;
+
+}
+
+
+
+.fa-facebook, .fa-globe{
+font-size: 25px;
+}
+
+.fa-phone{
+    color: rgb(219, 49, 27);
+background-color: white;
+border-radius: 50%;
+padding: 5px;
+font-size: 20px;
+}
+
