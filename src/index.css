@@ -45,7 +45,7 @@ width: 400px;
      display: flex;
     justify-content: center;
 align-items: center;
-margin:0 1em 0 1em;
+
 
 
 }
@@ -67,6 +67,9 @@ margin:0 1em 0 1em;
  
 }
 
+
+
+
 .gifting-award img{
     width: 100%;
     height: 100%;
@@ -79,10 +82,19 @@ flex-direction: column;
     gap: 10px;
 }
 
+@media only  screen  and (max-width: 850px){
+    .right-con{
+    width: 100%;
+}
+
+.container{
+    margin: 0 1em;
+}
+}
 
 
 ul li {
-    margin-left: 2.5em;
+    margin-left: 2em;
     font-weight: 600;
     font-size: 14px;
     
@@ -98,11 +110,11 @@ ul li {
  
     
 }
-@media only  screen  and (max-width: 500px){
+
    .all-tools-con{
    margin-top: 2em;
 }
-}
+
 
 
 .all-tools-con h4{
